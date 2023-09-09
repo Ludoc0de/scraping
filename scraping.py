@@ -16,7 +16,9 @@ l=[]
 o={}
 target_url = "https://www.indeed.com/jobs?q=cyber+security+analyst&l=Remote&sc=0kf%3Aattr%28DSQF7%29explvl%28ENTRY_LEVEL%29%3B&vjk=b0e4259fdfcca658"
 
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 Edg/116.0.1938.69"
+
+# user_agent = "*"
 
 session = requests.Session()
 
